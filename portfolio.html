@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sakshi Pipaliya - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body, html {
+      height: 100%;
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .section {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 50px 0;
+    }
+
+    .intro-section {
+      background: #e9ecef;
+      color: black;
+    }
+
+    .about-section {
+      background: #e9ecef;
+      color: #343a40;
+    }
+
+    .projects-section {
+      background: #e9ecef;
+      color: #343a40;
+    }
+
+    .contact-section {
+      background: #e9ecef;
+      color: #343a40;
+    }
+
+    .intro-section img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+
+    .intro-section .info {
+      margin-top: 20px;
+    }
+
+    .card {
+      border-radius: 15px;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+      transition: 0.3s;
+    }
+
+    hr {
+      border-top: 2px solid #343a40;
+      margin: 0;
+    }
+
+    .progress-bar {
+      background-color: #28a745;
+    }
+
+    .progress-bar-90 {
+      background-color: #007bff;
+    }
+
+    .progress-bar-70 {
+      background-color: #ffc107;
+    }
+
+    .progress-bar-95 {
+      background-color: #dc3545;
+    }
+
+    .progress-bar-75 {
+      background-color: #17a2b8;
+    }
+
+    @media (max-width: 767px) {
+      .intro-section, .about-section, .projects-section, .contact-section {
+        height: auto;
+        padding: 50px 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="#">Sakshi Pipaliya</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Intro Section -->
+  <section class="intro-section section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <img src="https://miro.medium.com/v2/resize:fit:605/1*vTLOUrJWoo4Kzj7ly8o0jA.png" alt="Profile Picture">
+        </div>
+        <div class="col-md-6 info">
+          <h2>HELLO,</h2>
+          <h1><b>I'M Sakshi Pipaliya</b></h1>
+          <h3>Web Developer</h3>
+          <p>I am a passionate and creative web developer dedicated to building interactive and user-friendly websites. With a keen eye for detail and a love for coding, I strive to deliver high-quality web experiences that delight users and achieve business goals.</p>
+          <ul class="list-unstyled">
+            <li><i class="far fa-calendar-alt"></i> 14th January, 2005</li>
+            <li><i class="fas fa-phone-alt"></i> 1234567890</li>
+            <li><i class="far fa-envelope"></i> abc@gmail.com</li>
+            <li><i class="fas fa-map-marker-alt"></i> Rajkot, Gujarat</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr>
+
+  <!-- About Section -->
+  <section id="about" class="about-section section">
+    <div class="container">
+      <h2 class="text-center"><u>About Me</u></h2><br><br>
+      <div class="row welcome_inner">
+        <div class="col-lg-6">
+          <div class="welcome_text">
+            <h5>Hello Everyone,</h5>
+            <p>I'm Sakshi Pipaliya. Currently, I am studying at Darshan University.
+              I learned many programming languages like C, Flutter, ReactJs, Angular, 
+              Python, DBMS, etc. I am very dedicated and passionate about my work. I like 
+              to explore new things and places.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="tools_expert">
+            <div class="skill_main">
+              <div class="skill_item">
+                <h4>Python <span class="counter">85</span>%</h4>
+                <div class="progress_br">
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="skill_item">
+                <h4>Web Designing <span class="counter">90</span>%</h4>
+                <div class="progress_br">
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-90" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="skill_item">
+                <h4>Flutter <span class="counter">70</span>%</h4>
+                <div class="progress_br">
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-70" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="skill_item">
+                <h4>ReactJs <span class="counter">95</span>%</h4>
+                <div class="progress_br">
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-95" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="skill_item">
+                <h4>Algorithms <span class="counter">75</span>%</h4>
+                <div class="progress_br">
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-75" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects-section section">
+    <div class="container">
+      <h2 class="text-center"><u>Projects</u></h2><br><br>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://cdn.dribbble.com/userupload/3165565/file/original-faaac7564c0fffe7c6c58d784572cfc4.png?resize=400x300&vertical=center" class="card-img-top" alt="Project 1">
+            <div class="card-body">
+              <h5 class="card-title">Project 1</h5>
+              <p class="card-text">In Flutter, I made the UI design of a cosmetic product website.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://cdn.dribbble.com/users/5889692/screenshots/16885371/media/e3dfa9145e1622986c8e3d4835082c53.png?resize=400x300&vertical=center" class="card-img-top" alt="Project 2">
+            <div class="card-body">
+              <h5 class="card-title">Project 2</h5>
+              <p class="card-text">In Angular, I made an e-commerce shopping website.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://cdn.dribbble.com/userupload/13654843/file/original-57455fdbbcc06a19c8e49de9873d100a.png?resize=400x300&vertical=center" class="card-img-top" alt="Project 2">
+            <div class="card-body">
+              <h5 class="card-title">Project 3</h5>
+              <p class="card-text">In Angular, I made an Weather based website.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section section">
+    <div class="container">
+      <h2 class="text-center"><u>Contact Me</u></h2><br><br>
+      <form>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Your Name">
+        </div>
+        <div class="form-group">
+          <label for="email">Email address</label>
+          <input type="email" class="form-control" id="email" placeholder="Your Email">
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea class="form-control" id="message" rows="3" placeholder="Your Message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <!-- Footer -->
+<footer class="bg-dark text-white text-center py-4">
+  <div class="container">
+    <p>&copy; 2024 Sakshi Pipaliya. All rights reserved.</p>
+    <ul class="list-inline">
+      <li class="list-inline-item">
+        <a href="https://www.linkedin.com/in/yourprofile" class="text-white" target="_blank">LinkedIn</a>
+      </li>
+      <li class="list-inline-item">
+        <a href="https://github.com/yourprofile" class="text-white" target="_blank">GitHub</a>
+      </li>
+      <li class="list-inline-item">
+        <a href="mailto:abc@gmail.com" class="text-white">Email</a>
+      </li>
+    </ul>
+  </div>
+</footer>
+</body>
+</html>
